@@ -29,12 +29,12 @@ Or when a quick reply is sent:
 "attachment": [
   {
     "type": "Button",
-    "content": "Broid",
+    "url": "broid_payload",
     "name": "broid"
   },
   {
     "type": "Button",
-    "content": "Google",
+    "url": "google_payload",
     "name": "google"
   }
 ]
