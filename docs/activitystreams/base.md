@@ -65,4 +65,4 @@ Base of object should always contains theses fields:
 | item ``object`` | (optional) used for the object type [collection](/activitystreams/object/collection/), allows carousel.|
 | [tag](/activitystreams/object/fields/tag/) ``object`` | (optional) one or more "tags" can be associated with a message.|
 | [context](/activitystreams/object/fields/context/) ``object`` |  (optional) usefull to representing message leaving in the thread (Slack thread, Flowdock thread etc..).|
-| [attachement](/activitystreams/object/fields/attachement/) ``object`` | (optional) this can be button, quick reply or media object.|
+| [attachment](/activitystreams/object/fields/attachment/) ``object`` | (optional) this can be button, quick reply or media object.|
