@@ -8,7 +8,7 @@ Update an user object
 
 ### Returns
 
-Returns a ``NO CONTENT`` HTTP CODE. If the user ID does not exist, this call returns an [error](/reference#errors).
+Returns a ``NO CONTENT`` HTTP CODE. If the user ID does not exist, this call returns an [error](/errors/).
 
 ### The parameters
 

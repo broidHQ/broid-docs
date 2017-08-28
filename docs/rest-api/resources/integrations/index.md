@@ -1,6 +1,6 @@
 # Definition
 
-This is an object representing an integration associated to your account. The API allows you to create, delete, and update integrations. You can retrieve list of integrations as well by [Application](/resources/applications).
+This is an object representing an integration associated to your account. The API allows you to create, delete, and update integrations. You can retrieve list of integrations as well by [Application](/rest-api/resources/applications).
 
 ## The integration object
 
