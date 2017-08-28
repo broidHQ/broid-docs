@@ -1,0 +1,97 @@
+site_name: Broid | Tutorials & Documentation
+site_description: Broid's API documentation for an easy deployment on multiple messaging channels using Activity Streams 2.0 open standards.
+site_url: 'https://developers.broid.ai'
+copyright: 'Copyright &copy; 2017 Broid.'
+pages:
+    - Introduction: index.md
+    - Starter Kits: starter-kits.md
+    - Activities:
+      - Introduction: activitystreams/index.md
+      - Base: activitystreams/base.md
+      - Objects:
+        - Note: activitystreams/object/note.md
+        - Video: activitystreams/object/video.md
+        - Image: activitystreams/object/image.md
+        - Place: activitystreams/object/place.md
+        - Document: activitystreams/object/document.md
+        - Collection: activitystreams/object/collection.md
+        - Rich fields:
+          - Tag: activitystreams/object/fields/tag.md
+          - Context: activitystreams/object/fields/context.md
+          - Attachment: activitystreams/object/fields/attachment.md
+    - Rest API:
+      - Introduction: rest-api/index.md
+      - Authentication: rest-api/authentication.md
+      - Encryption: rest-api/encryption.md
+      - API Versioning: rest-api/versioning.md
+      - Snowflake ID's: rest-api/snowflake-id.md
+      - Consistency: rest-api/consistency.md
+      - Rate Limiting: rest-api/rate-limiting.md
+      - Resources:
+        - Users:
+          - Definition: rest-api/resources/users/index.md
+          - Account information: rest-api/resources/users/me.md
+          - Update: rest-api/resources/users/update.md
+        - Applications:
+          - Definition: rest-api/resources/applications/index.md
+          - List: rest-api/resources/applications/list.md
+          - Get: rest-api/resources/applications/get.md
+          - Create: rest-api/resources/applications/create.md
+          - Disable: rest-api/resources/applications/disable.md
+          - Delete: rest-api/resources/applications/delete.md
+        - Integrations:
+          - Definition: rest-api/resources/integrations/index.md
+          - List: rest-api/resources/integrations/list.md
+          - Create: rest-api/resources/integrations/create.md
+          - Update: rest-api/resources/integrations/update.md
+          - Disable: rest-api/resources/integrations/disable.md
+          - Delete: rest-api/resources/integrations/delete.md
+        - Realtime: rest-api/resources/realtime.md
+        - Send a message: rest-api/resources/send-message.md
+    - Integrations:
+      - Introduction: integrations/index.md
+      - Integrations List: integrations/integrations-list.md
+      # - Slack: integrations/slack.md
+    - Tutorials:
+      - Build A Echo Bot app: tutorials/echo-bot.md
+      - Webmessenger - Hello world: tutorials/hello-webmessenger.md
+    - Errors: errors.md
+    - Changelog: changelog.md
+    - Community: community.md
+    - Checkout: checkout.md
+theme: 'material'
+extra_css:
+  - css/base.css
+  - css/styles.css
+repo_url: https://github.com/broidHQ/broid-docs
+site_favicon: images/favicon.ico
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+      use_pygments: true
+  - toc(permalink=true)
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+extra:
+  logo: 'images/home.png'
+  font:
+    text: 'Avenir'
+    code: 'Mono'
+  social:
+    - type: 'github'
+      link: 'https://github.com/broidHQ'
+    - type: 'twitter'
+      link: 'https://twitter.com/broidHQ'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/broidHQ/'  
+    - type: 'slack'
+      link: 'https://slackin.broid.ai'
+    - type: 'linkedin'
+      link: 'https://ca.linkedin.com/company/broidhq'
+    - type: 'envelope'
+      link: 'mailto:hello@broid.ai'
+google_analytics: ['UA-104764383-2', 'auto']
