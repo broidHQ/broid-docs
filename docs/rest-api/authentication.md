@@ -23,5 +23,5 @@ The authentication to the API is performed via **Authorization Bearer Header**.
 
 ```bash
 $ curl https://api.broid.ai/v1/status \
-   -H 'Authorization: Bearer: {JWT_TOKEN}'
+   -H 'Authorization: Bearer {JWT_TOKEN}'
 ```
