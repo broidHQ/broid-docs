@@ -56,7 +56,7 @@ Otherwise the fields of this object should be the same:
 
 ### mediaTypes
 
-Identifies the behaviour behound the button trigger.
+Identifies the behaviour beyond the button trigger.
 
 |                      | Description                                                                                                                                                                    |
 |---------------------:|:------------------------------------------------|
