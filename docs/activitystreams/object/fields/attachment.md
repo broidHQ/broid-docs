@@ -29,12 +29,12 @@ Or when a quick reply is sent:
 "attachment": [
   {
     "type": "Button",
-    "content": "Broid",
+    "url": "broid_payload",
     "name": "broid"
   },
   {
     "type": "Button",
-    "content": "Google",
+    "url": "google_payload",
     "name": "google"
   }
 ]
@@ -49,7 +49,18 @@ Otherwise the fields of this object should be the same:
 |                      | Description                                                                                                                                                                         |
 |---------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |       url ``string`` | the value of the button or quick reply                                                                                                                                              |
-| mediaType ``string`` | identifies the MIME media type of the value. (usefull when you wan to handle differently the value, eg.: in Broid interactive chat 'text/html' open a new tab open the website url) |
+| mediaType ``string`` | identifies the MIME media type of the value. (usefull when you wan to handle differently the value, eg.: in Broid interactive chat 'text/html' open a new tab open the website url) [details](/activitystreams/object/fields/attachment/#button-quick-reply) |
 |   content ``string`` | the description of the button.                                                                                                                                                      |
 |      name ``string`` | the name of the button.                                                                                                                                                             |
 |      type ``string`` | should always be `Button`                                                                                                                                                           |
+
+### mediaTypes
+
+Identifies the behaviour beyond the button trigger.
+
+|                      | Description                                                                                                                                                                    |
+|---------------------:|:------------------------------------------------|
+| text/html ``string`` | the button provide a HTLM/website url  (eg.: 'type' = 'web_url' in Facebook Messenger)          |
+| application/vnd.geo+json ``string`` | the button provide a localisation action (eg.: 'content_type' = 'location' in Facebook Messenger)          |
+
+
