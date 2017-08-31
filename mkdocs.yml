@@ -51,7 +51,7 @@ pages:
     - Integrations:
       - Introduction: integrations/index.md
       - Integrations List: integrations/integrations-list.md
-      # - Slack: integrations/slack.md
+      - WebMessenger: integrations/webmessenger.md
     - Tutorials:
       - Build A Echo Bot app: tutorials/echo-bot.md
       - Webmessenger - Hello world: tutorials/hello-webmessenger.md
@@ -87,7 +87,7 @@ extra:
     - type: 'twitter'
       link: 'https://twitter.com/broidHQ'
     - type: 'facebook'
-      link: 'https://www.facebook.com/broidHQ/'  
+      link: 'https://www.facebook.com/broidHQ/'
     - type: 'slack'
       link: 'https://slackin.broid.ai'
     - type: 'linkedin'
