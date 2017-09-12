@@ -24,7 +24,7 @@ Here's an example of us sending a new message to a user, John, that is using our
     "id": "5000186376024662000",
     "type": "Note"
   },
-  "target": {
+  "to": {
     "id": "<id>",
     "name": "John",
     "type": "Person"
@@ -40,6 +40,6 @@ in a `message` object.
 curl -X POST \
     -H "Authorization: Bearer {APPLICATION_JWT_TOKEN}" \
     -H "Content-Type: application/json" \
-    -d '{"message: {"target":{"type":"Person","id":"user-id","name":"John"},"generator":{"type":"Service","id":"My-App-ID","name":"myapp"},"object":{"content":"Hello world!","type":"Note","id":"5000186376024662000"},"actor":{"type":"Person","id":"My-App-ID","name":"Sally"},"published":1484195107,"@context":"https://www.w3.org/ns/activitystreams","type":"Create"}}' \
+    -d '{"message: {"to":{"type":"Person","id":"user-id","name":"John"},"generator":{"type":"Service","id":"My-App-ID","name":"myapp"},"object":{"content":"Hello world!","type":"Note","id":"5000186376024662000"},"actor":{"type":"Person","id":"My-App-ID","name":"Sally"},"published":1484195107,"@context":"https://www.w3.org/ns/activitystreams","type":"Create"}}' \
     https://api.broid.ai/1/message
 ```
