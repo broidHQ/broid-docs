@@ -92,7 +92,7 @@ That's it! You now have a fully working backend for handling messages with Broid
 You can configure the Webmessenger on your website in just two easy steps. First, add the Webmessenger snippet to the end of your page.
 
 ```html
-<script src="https://cdn.broid.ai/snippet.js"></script>
+<script src="https://cdn.broid.ai/snippet.latest.js"></script>
 ```
 
 Second is configuring the snippet with your credentials and prefered customizations.
