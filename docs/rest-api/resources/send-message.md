@@ -15,17 +15,17 @@ Here's an example of us sending a new message to a user, John, that is using our
 {
   "@context": "https://www.w3.org/ns/activitystreams",
   "generator": {
-    "id": "<service_id>",
+    "id": <service_id>,
     "name": "<service_name>",
     "type": "Service"
   },
   "object": {
     "content": "Hello world!",
-    "id": "5000186376024662000",
+    "id": 5000186376024662000,
     "type": "Note"
   },
   "target": {
-    "id": "<id>",
+    "id": <id>,
     "name": "John",
     "type": "Person"
   },
