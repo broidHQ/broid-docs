@@ -98,7 +98,7 @@ You can configure the Webmessenger on your website in just two easy steps. First
 Second is configuring the snippet with your credentials and prefered customizations.
 
 - `backendURL` is where the snippet should be loaded from, set `https://webmessenger.broid.ai/`.
-- `appID` is the application ID from the WebMessenger which can be grabbed from the Broid dashboard.
+- `channelID` is the channel/integration ID from the WebMessenger which can be grabbed from the Broid dashboard.
 - `name` is the name presented to users.
 - `welcome.message` is the introduction message shown to users when the client the webmessenger button.
 
@@ -106,7 +106,7 @@ Second is configuring the snippet with your credentials and prefered customizati
 <script>
   BroidWebMessenger({
     backendURL: "https://webmessenger.broid.ai/",
-    appID: "MY-APP-ID",
+    channelID: "THE-ID",
     name: "Hello World Bot",
     welcome: {
       message: "Hey there! The backend is listening, why not say hello?"
@@ -128,7 +128,7 @@ Here's our full example:
   <script>
     BroidWebMessenger({
       backendURL: "https://webmessenger.broid.ai/",
-      appID: "MY-APP-ID",
+      channelID: "THE-ID",
       name: "Hello World Bot"
     });
   </script>
