@@ -4,23 +4,23 @@
 
 Create a Discord account, or sign-in to your Discord account
 
-====
+![image 1](/images/integrations/Discord/image1.png)
 
 ## Create a Discord App
 
 Go on Discord Dashboard, select the Application option and click on Create New App.
 
-====
+![image 2](/images/integrations/Discord/image2.png)
 
 Fill in the Name, and Description, and create the application
 
-====
+![image 3](/images/integrations/Discord/image3.png)
 
 ## Get your credentials
 
 You now have access to your Client ID and your secret key.
 
-====
+![image 4](/images/integrations/Discord/image4.png)
 
 
 ## Activate your Channel on Broid
