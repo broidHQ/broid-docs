@@ -4,13 +4,13 @@
 
 Request you Viber Bot Account, or sign-in to your Viber Bot account at <a href="https://developers.viber.com/docs/general/getting-started-with-bots/" target="_blank">this link</a>.
 
-====
+![image 1](/images/integrations/Viber/image1.png)
 
 ## Fill in your Application
 
 Fill in all the required fields, then Save you application
 
-====
+![image 2](/images/integrations/Viber/image2.png)
 
 ## Get your credentials
 
