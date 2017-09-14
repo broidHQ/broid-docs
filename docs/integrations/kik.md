@@ -14,7 +14,7 @@ Follow the procedure to create your account if you don't already have one.
 
 Scan the code that appears on your Kik app by following <a href="https://dev.kik.com/" target="_blank">this link</a>. 
 
-====
+![image 1](/images/integrations/Kik/image1.png)
 
 Log in to your dashboard using Botsworth.
 
@@ -22,13 +22,13 @@ Log in to your dashboard using Botsworth.
 
 Kik's Botsworth to create a new bot. It is a step-by-step guide to create your own bot on Kik.
 
-====
+![image 2](/images/integrations/Kik/image2.png)
 
 ## Get your bot name and your API key
 
 On your computer, go to the Configuration menu to see the settings of your bot. 
 
-====
+![image 3](/images/integrations/Kik/image3.png)
 
 You can now access your username and your API Key, you will need them for the next step.
 
@@ -36,7 +36,7 @@ You can now access your username and your API Key, you will need them for the ne
 
 Enter your username and your API Key on the Broid Dashboard
 
-TODO when the dashboard will ready
+====
 
 ## Your bot
 
