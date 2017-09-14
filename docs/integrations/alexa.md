@@ -4,13 +4,13 @@
 
 Go ahead and create a free developer account at <a href="https://developer.amazon.com" target="_blank">Amazon Developer</a>.
 
-====
+![image 1](/images/integrations/Alexa/image1.png)
 
 ## Create a device and security profile
 
 Follow the steps  <a href="https://github.com/alexa/alexa-avs-sample-app/wiki/Create-Security-Profile" target="_blank">here</a> to register your product and create a security profile.
 
-====
+![image 2](/images/integrations/Alexa/image2.png)
 
 Make sure your Allowed Origins and Allowed Return URLs are set under Security Profile > Web Settings
 
@@ -19,7 +19,7 @@ Allowed Return URLs: https://localhost:3000/authresponse
 
 ## Activate your Channel on Broid
 
-Activate your channel on the Broid dashboard by submiting your ClientID
+Activate your channel on the Broid dashboard by submiting your IDs
 
 ====
 
