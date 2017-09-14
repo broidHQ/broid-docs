@@ -4,21 +4,19 @@
 
 Create a new app on CALLR with <a href="https://callr.com/" target="_blank">this link</a>. Click on « Sign up » to make an account on the website and follow the steps. 
 
-====
+![image 1](/images/integrations/Callr/image1.png)
 
 ## Get your credentials
 
 You should receive an email with your credentials (login and password)
 
-====
+![image 2](/images/integrations/Callr/image2.png)
 
 Make sur you validate your account via email. It's the only way to enable SMS sending
 
 ## Setup your channel on Broid
 
 Now on the Broid Dashboard, create your channel with your credentials, on the _App Credentials_ section
-
-====
 
 ## Activate your Channel
 
