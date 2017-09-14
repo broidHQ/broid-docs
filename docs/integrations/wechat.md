@@ -6,19 +6,17 @@ Go on the Apple Appstore, or the Google Play Store, and download the WeChat app
 
 Once you've downloaded it, create your account
 
-====
-
 ## Login to the WeChat Sandbox portal
 
 Navigate to the <a href="http://admin.wechat.com/debug/sandbox" target="_blank">WeChat Sandbox portal</a>, click on the Log In button, open the WeChat app, select Discover from the bottom bar, tap on Scan QR code and scan the login code on the screen
 
-====
+![image 1](/images/integrations/WeChat/image1.png)
 
 ## Configure your WeChat Account
 
 Locate the API config panel in the WeChat sandbox account dashboard and click Edit
 
-====
+![image 2](/images/integrations/WeChat/image2.png)
 
 Set you own token value
 
