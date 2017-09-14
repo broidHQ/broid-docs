@@ -40,7 +40,7 @@ Example configuration:
       onButton: (data) => console.log("BUTTON: ", data),
       onChat: (data) => console.log("CHAT: ", data),
     },
-    welcome: {
+    whisper: {
       message: "Hey there! How can we help you?"
     }
   });
