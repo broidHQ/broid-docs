@@ -8,27 +8,30 @@ Download the Telegram Application on the Apple AppStore or the Google Play Store
 
 Create a new account on Telegram
 
-====
+![image 1](/images/integrations/Telegram/image1.png)
 
 ## Chat with BotFather
 
 Search for BotFather on the left meny, and engage in a conversation with Botfather, it is a step-by-step guide to create your own bot on Telegram.
 
-====
+![image 2](/images/integrations/Telegram/image2.png)
+
+![image 3](/images/integrations/Telegram/image3.png)
+
 
 ## Ask for your token
 
 Ask BotFather to get your token by typing the command `/token` in the conversation panel.  
 
-====
+![image 4](/images/integrations/Telegram/image4.png)
+
+![image 5](/images/integrations/Telegram/image5.png)
 
 Copy this token 
 
 ## Activate your Channel on Broid
 
 Enter your Telegram token on the Broid Dashboard
-
-====
 
 ## Set up your bot
 
