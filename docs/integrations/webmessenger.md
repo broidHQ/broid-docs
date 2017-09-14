@@ -7,7 +7,7 @@ This configuration is used to initialize the web messenger (*WebMessenger*) inte
 | Variable         | Type     | Required | Description                                                                                                    |
 |------------------|----------|----------|----------------------------------------------------------------------------------------------------------------|
 | backendURL       | string   | true     | The WebMessenger application url, usually should always be `https://webmessenger.broid.ai/`                    |
-| appID            | string   | true     | The application ID found on the Broid dashboard.                                                               |
+| channelID            | string   | true     | The channel/integration ID found on the Broid dashboard.                                                               |
 | name             | string   | true     | The name of your bot displayed on WebMessenger.                                                                |
 | avatarURL        | string   | false    | A 30x30 png for the avatar of your bot on WebMessenger.                                                        |
 | iconURL          | string   | false    | A 30x30 png for the icon of the button used to initialize WebMessenger.                                        |
@@ -28,7 +28,7 @@ Example configuration:
 ```javascript
   BroidWebMessenger({
     backendURL: "https://webmessenger.broid.ai/",
-    appID: "MY-APP-ID",
+    channelID: "THE-ID",
     name: "My Bot",
     avatarURL: "http://broid.ai/images/placeholders/30x30.png",
     iconURL: "http://broid.ai/images/placeholders/30x30.png",
