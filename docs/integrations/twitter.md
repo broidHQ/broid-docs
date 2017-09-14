@@ -4,35 +4,33 @@
 
 Create a Twitter account, or sign-in to your twitter account
 
-====
-
 ## Create a Twitter App
 
 Go on Twitter App and click on Create New App.
 
-====
+![image 1](/images/integrations/Twitter/image1.png)
 
 Fill in the Name, Description and Website fields, and leave the Callback URL empty.
 
-====
+![image 2](/images/integrations/Twitter/image2.png)
 
 ## Enable Direct Messages
 
 Go in the Permissions tab of your application, and enable Read, Write and Access direct messages.
 
-====
+![image 3](/images/integrations/Twitter/image3.png)
 
 ## Get your credentials
 
 Go in the Keys and Access Tokens tab of your application, and click on Create your Access Token.
 
-====
+![image 4](/images/integrations/Twitter/image4.png)
 
 You now have access to your Consumer Key, Consumer Secret, Access Token and Access Token Secret.
 
 ## Activate your Channel
 
-TODO when the dashboard is ready
+====
 
 ## Set up your bot
 
