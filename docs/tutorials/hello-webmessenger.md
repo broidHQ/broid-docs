@@ -43,7 +43,7 @@ And lastly we can now process the messages that are emitted from the socket obse
 - `system` messages, such as `connect` and `disconnect` events.
 - `chat` messages, activity stream events from the webmessenger.
 
-For this tutorial, we'll be ignoring the system messages and handling the chat messages from the WebMessenger. We will handle the chat messages with a nice reply from the backend server. Each message needs a unique ID to indentity it, so we've included [uuid](https://www.npmjs.com/package/uuid) to generate one for us.
+For this tutorial, we'll be ignoring the system messages and handling the chat messages from the WebMessenger. We will handle the chat messages with a nice reply from the backend server. Each message needs a unique ID to identify it, so we've included [uuid](https://www.npmjs.com/package/uuid) to generate one for us.
 
 Here's the full example:
 
