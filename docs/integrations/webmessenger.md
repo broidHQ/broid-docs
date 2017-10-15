@@ -15,6 +15,7 @@ This configuration is used to initialize the web messenger (*WebMessenger*) inte
 | iconURL          | string   | false    | A 30x30 png URL for the icon of the button used to initialize WebMessenger.                                    |
 | theme            | object   | false    | Theme is used to customize aspects of the webmessenger to fit your existing websites look and feel.            |
 | theme.main_color | string   | false    | Color code for the main color used throughout WebMessenger.                                                    |
+| theme.text_color | string   | false    | Color code for the text color used throughout WebMessenger.                                                    |
 | theme.quickreply | object   | false    |                                                                                                                |
 | theme.quickreply.border | string   | false    | Color code for the border color used for quickreply.                                                    |
 | theme.quickreply.text   | string   | false    | Color code for the text color used for quickreply.                                                      |
