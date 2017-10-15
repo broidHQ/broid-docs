@@ -1,6 +1,6 @@
 # Community
 
-## [Slack](http://slackin.broid.ao)
+## [Slack](http://slackin.broid.ai)
 
 Join the Broid community Slack channel! This is where we all hang out :tada:
 
