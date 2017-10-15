@@ -8,17 +8,25 @@ This configuration is used to initialize the web messenger (*WebMessenger*) inte
 |------------------|----------|----------|----------------------------------------------------------------------------------------------------------------|
 | backendURL       | string   | true     | The WebMessenger application url, usually should always be `https://webmessenger.broid.ai/`                    |
 | channelID        | string   | true     | The channel/integration ID found on the Broid dashboard.                                                       |
+| chatHistory      | boolean  | false    | Keep or not the user chat history.                                                                             |
 | bot              | object   | true     | Configuration for the bot/application informations also use as fallback.                                       |
 | bot.name         | string   | true     | The name of your bot displayed on WebMessenger.                                                                |
 | bot.icon         | string/URL | true   | A 30x30 png URL for the avatar of your bot on WebMessenger.                                                    |
 | iconURL          | string   | false    | A 30x30 png URL for the icon of the button used to initialize WebMessenger.                                    |
 | theme            | object   | false    | Theme is used to customize aspects of the webmessenger to fit your existing websites look and feel.            |
 | theme.main_color | string   | false    | Color code for the main color used throughout WebMessenger.                                                    |
+| theme.quickreply | object   | false    |                                                                                                                |
+| theme.quickreply.border | string   | false    | Color code for the border color used for quickreply.                                                    |
+| theme.quickreply.text   | string   | false    | Color code for the text color used for quickreply.                                                      |
+| theme.buttons | object   | false    |                                                                                                                   |
+| theme.buttons.border | string   | false    | Color code for the border color used for button.                                                           |
+| theme.buttons.text   | string   | false    | Color code for the text color used for button.                                                             |
 | events           | object   | false    | Events are used to trigger other actions in your Javascript application when an event occures on webmessenger. |
 | events.onWelcome | function | false    | Fires when the welcome view is shown.                                                                          |
 | events.onButton  | function | false    | Fires when the open view button is pressed.                                                                    |
 | events.onChat    | function | false    | Fires when a chat message is sent or received.                                                                 |
 | events.onInitialized    | function | false    | Fires when the widget is initialized.                                                                   |
+| events.onClose    | function | false    | Fires when the chat is closed                                                                                 |
 | whisper          | object   | false    | Configuration for the whisper view.                                                                            |
 | whisper.message  | string   | false    | Welcome message show to users on the welcome view.                                                             |
 | whisper.button   | string   | false    | Configuration for the whisper button if needed.                                                                |
@@ -29,10 +37,10 @@ This configuration is used to initialize the web messenger (*WebMessenger*) inte
 | actor.name         | string   | false     | User's name                                                                                                 |
 | actor.icon         | string/URL | false   | A 30x30 png URL for the avatar of the user                                                                  |
 | display            | object   | false     | Configuration for the webmessenger display.                                                                 |
-| display.message    | boolean  | false     | Set to true if you want to hide the widget on the load page.                                                |
+| display.hide       | boolean  | false     | Set to true if you want to hide the widget on the load page.                                                |
 | container          | string   | false     | Selector where inject the widget (eg.: .container or #container)                                            |
 | locale             | string   | false     | Language of the webmessenger. Languages supported: en, fr, br                                               |
-| credits            | string   | false     | Strings used to display the credits information (eg.: We'r powered by broid.ai)                             |
+| credits            | string   | false     | HTML String used to display the credits information (eg.: We'r powered by broid.ai)                         |
 
 ## Methods
 
