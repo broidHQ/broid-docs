@@ -1,22 +1,34 @@
-# Broid + Viber
+# Broid + Line
 
-## Request your Viber Bot Account
+## Create your Line account
 
-Request you Viber Bot Account, or sign-in to your Viber Bot account at <a href="https://developers.viber.com/docs/general/getting-started-with-bots/" target="_blank">this link</a>.
+Go on the Apple Appstore, or the Google Play Store, and download the Line app
 
-![image 1](/images/integrations/Viber/image1.png)
-
-## Fill in your Application
-
-Fill in all the required fields, then Save you application
-
-![image 2](/images/integrations/Viber/image2.png)
-
-## Get your credentials
-
-Once your application has been approved by Viber, you will be able to access your token, username, and webhookURL
+Once you've downloaded it, create your account
 
 ====
+
+## Login to the Line @Manager portal
+
+Navigate to the <a href="https://business.line.me/en/services/bot" target="_blank">Line</a>, click on "Start using messaging API" and login with your account
+
+====
+
+## Configure your Line Account
+
+On the “Bot Settings” page, click Enable API.
+
+====
+
+Select Allow for “Use webhooks” under “Request Settings”
+
+====
+
+In the “Messaging API” section, select the LINE Developers button to go to the Channel Console.
+
+====
+
+Issue a Channel access token for accessing APIs, by clicking ISSUE for the “Channel access token” item
 
 ## Activate your Channel on Broid
 
