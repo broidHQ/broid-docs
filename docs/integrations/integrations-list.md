@@ -1,6 +1,6 @@
 # Integrations list
 
-The list of the generator names can be find with the Broid API
+The list of the generator names can be found with the Broid API
 
 | |Name|
 |:--|:--|
@@ -14,7 +14,7 @@ The list of the generator names can be find with the Broid API
 |<img width="35" src="https://t.broid.ai/i/p-irc-color" />| irc |
 |<img width="35" src="https://t.broid.ai/i/p-kik-color" />| kik |
 |<img width="35" src="https://t.broid.ai/i/p-line-color" />| line |
-|| messagebird |
+|<img width="35" src="http://www.broid.ai/dist/assets/images/github/integrations/messagebird.png" />| messagebird |
 |<img width="35" src="https://t.broid.ai/i/s-messenger-color" />| messenger |
 |<img width="35" src="https://t.broid.ai/i/p-ms-teams-color" />| ms-teams |
 |<img width="35" src="https://t.broid.ai/i/p-nexmo-color" />| nexmo |
@@ -24,5 +24,5 @@ The list of the generator names can be find with the Broid API
 |<img width="35" src="https://t.broid.ai/i/p-twilio-color" />| twilio |
 |<img width="35" src="https://t.broid.ai/i/s-twitter-color" />| twitter |
 |<img width="35" src="https://t.broid.ai/i/p-viber-color" />| viber |
-|| webmessenger |
+|<img width="35" src="http://www.broid.ai/dist/assets/images/github/integrations/broid_webmessenger.png" />| webmessenger |
 |<img width="35" src="https://t.broid.ai/i/p-wechat-color" />| wechat |
