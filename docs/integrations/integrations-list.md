@@ -4,7 +4,7 @@ The list of the generator names can be find with the Broid API
 
 | |Name|
 |:--|:--|
-|<img width="35" src="https://t.broid.ai/i/p-alexa-color" /" />| alexa |
+|<img width="35" src="https://t.broid.ai/i/p-alexa-color" />| alexa |
 |<img width="35" src="https://t.broid.ai/i/p-callr-color" />| callr |
 |<img width="35" src="https://t.broid.ai/i/s-discord-color" />| discord |
 |<img width="35" src="https://t.broid.ai/i/s-flowdock-color" />| flowdock |
