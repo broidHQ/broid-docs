@@ -1,6 +1,6 @@
 # Integrations list
 
-The list of the generator names can be find with the Broid API
+This is the list of the generator names for all our current integrations. More information about integrations can be found in the API doc, [right there](https://developers.broid.ai/rest-api/resources/integrations).
 
 | |Name|
 |:--|:--|
