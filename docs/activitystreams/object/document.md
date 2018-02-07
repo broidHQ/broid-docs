@@ -28,7 +28,7 @@ __Note: [Document](/activitystreams/object/document) message is any file others 
 		"type": "Service"
 	},
 	"object": {
-    "type": "Image",
+    "type": "Document",
     "id": "",
     "url": "http://images.nationalgeographic.com/wpf/media-live/photos/000/090/cache/african-elephant-standing_9033_600x450.pdf",
     "mediaType": "application/pdf"
