@@ -4,7 +4,7 @@ This is the list of the generator names for all our current integrations. More i
 
 | |Name|
 |:--|:--|
-|<img width="35" src="https://t.broid.ai/i/p-alexa-color" /" />| alexa |
+|<img width="35" src="https://t.broid.ai/i/p-alexa-color" />| alexa |
 |<img width="35" src="https://t.broid.ai/i/p-callr-color" />| callr |
 |<img width="35" src="https://t.broid.ai/i/s-discord-color" />| discord |
 |<img width="35" src="https://t.broid.ai/i/s-flowdock-color" />| flowdock |
@@ -14,7 +14,7 @@ This is the list of the generator names for all our current integrations. More i
 |<img width="35" src="https://t.broid.ai/i/p-irc-color" />| irc |
 |<img width="35" src="https://t.broid.ai/i/p-kik-color" />| kik |
 |<img width="35" src="https://t.broid.ai/i/p-line-color" />| line |
-|| messagebird |
+|<img width="35" src="http://www.broid.ai/dist/assets/images/github/integrations/messagebird.png" />| messagebird |
 |<img width="35" src="https://t.broid.ai/i/s-messenger-color" />| messenger |
 |<img width="35" src="https://t.broid.ai/i/p-ms-teams-color" />| ms-teams |
 |<img width="35" src="https://t.broid.ai/i/p-nexmo-color" />| nexmo |
@@ -24,5 +24,5 @@ This is the list of the generator names for all our current integrations. More i
 |<img width="35" src="https://t.broid.ai/i/p-twilio-color" />| twilio |
 |<img width="35" src="https://t.broid.ai/i/s-twitter-color" />| twitter |
 |<img width="35" src="https://t.broid.ai/i/p-viber-color" />| viber |
-|| webmessenger |
+|<img width="35" src="http://www.broid.ai/dist/assets/images/github/integrations/broid_webmessenger.png" />| webmessenger |
 |<img width="35" src="https://t.broid.ai/i/p-wechat-color" />| wechat |
