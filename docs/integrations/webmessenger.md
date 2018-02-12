@@ -33,6 +33,7 @@ This configuration is used to initialize the web messenger (*WebMessenger*) inte
 | whisper.button   | string   | false    | Configuration for the whisper button if needed.                                                                |
 | whisper.button.name | string   | false    | Name displayed for the CTA. (This value is also present in the callback payload)                            |
 | whisper.button.url  | string   | false    | Payload send when the CTA is clicked.                                                                       |
+| uploader.supported | array   | false    | List of supported files to upload, can be : ['jpeg', 'pdf', 'png', 'gif']                                     |
 | actor              | object   | false     | Configuration for identify your user                                                                        |
 | actor.id           | string   | false     | User's ID                                                                                                   |
 | actor.name         | string   | false     | User's name                                                                                                 |
@@ -77,6 +78,14 @@ Simulate the click to close the Whisper or the Chat window
   bm.close();
 ```
 
+### Show or Hide the composer
+
+This function show or hide the composer, this can be useful when you want to limit the free text chat
+
+```javascript
+  bm.composer(true); // Show the composer
+  // bm.composer(false); // Hide the composer
+```
 
 ## Example
 
